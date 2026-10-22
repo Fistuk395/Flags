@@ -63,10 +63,12 @@
                 Text="Israel"
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" />
-            <Grid RowDefinitions="*,*,*,*,*" HeightRequest="200" WidthRequest="200">
+            <Grid RowDefinitions="*,*,300,*,*" HeightRequest="500">
                 <BoxView BackgroundColor="White" Grid.Row="0"/>
                 <BoxView BackgroundColor="blue" Grid.Row="1"/>
-                <BoxView BackgroundColor="White" Grid.Row="2"/>
+                <BoxView BackgroundColor="White"  Grid.Row="2"/>
+                <Image Source="triangle.png" Grid.Row="2" Rotation="180" VerticalOptions="Center" HorizontalOptions="Center" Margin="0,0,0,-30"/>
+                <Image Source="triangle.png" Grid.Row="2" VerticalOptions="Center" HorizontalOptions="Center" Margin="0,-30,0,0"/>
                 <BoxView BackgroundColor="Blue" Grid.Row="3"/>
                 <BoxView BackgroundColor="White" Grid.Row="4"/>
                 
